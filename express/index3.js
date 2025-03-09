@@ -35,7 +35,7 @@ const userschema=new mongoose.Schema({
 const usermodel=mongoose.model('logs',userschema);
 
 app.get('/image',async (req, res) => {
-    const pythonProcess = spawn("C:\\allenvs\\MERN\\react,express,mongodb,python\\express\\python\\venv1\\Scripts\\python.exe", ['C:\\allenvs\\MERN\\react,express,mongodb,python\\express\\python\\venv1\\Face-Mask-Detection-master\\detection1.py']);
+    const pythonProcess = spawn("C:\\allenvs\\MERN\\react,express,mongodb,python\\express\\python\\venv1\\Scripts\\python.exe", ['C:\\Users\\Chaitanya\\Desktop\\projects\\express\\python\\Face-Mask-Detection-master\\detect_mask_video.py']);
 
 
     // Handle errors if Python script fails
